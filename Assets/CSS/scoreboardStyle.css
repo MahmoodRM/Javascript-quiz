@@ -1,0 +1,44 @@
+
+/* body */
+
+body{
+    background-color: #83147d;
+    margin: 0 auto;
+ }
+
+
+
+/* Header */
+
+#returnheader {
+    padding: 20px;
+    background-color: blueviolet;
+    border-bottom: 3px solid #5f135b;
+}
+
+#homelink {
+    color: rgb(211, 172, 221);
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+/* scoreboard */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+#scoreboard {
+    padding: 20px;
+    background-color: blueviolet;
+    border: 3px solid #5f135b;
+    width: 70vh;
+    height: 50vh;
+    display: flex;
+}
+
