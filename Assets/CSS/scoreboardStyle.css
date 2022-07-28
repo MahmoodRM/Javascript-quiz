@@ -39,6 +39,12 @@ main {
     border: 3px solid #5f135b;
     width: 70vh;
     height: 50vh;
-    display: flex;
 }
 
+#scores {
+    width: 90%;
+    height: 70%;
+    background-color: #83147d;
+    border-radius: 4px;
+    border:2px solid #5f135b;
+}

@@ -15,7 +15,7 @@
             </a>
             
             <!-- Timer -->
-            <div id="timedisplay"></div>
+            <div id="timer"></div>
             
             <!-- Score -->
             <div id="scoredisplay">
@@ -39,25 +39,25 @@
                     <h1 id="question" class="header"></h1>
                     
                     <!-- Option A -->
-                    <button id="choice-box" data-answer="1">
+                    <button class ="choice-box" data-answer="0">
                         <div class="choice-letter">A</div>
                         <div class="choice-option" ></div>
                     </button>
                     
                     <!-- Choice B  -->
-                    <button id="choice-box" data-answer="2">
+                    <button class ="choice-box" data-answer="1">
                         <div class="choice-letter">B</div>
                         <div class="choice-option" ></div>
                     </button>
 
                     <!-- Choice C  -->
-                    <button id="choice-box"data-answer="3">
+                    <button class ="choice-box" data-answer="2">
                         <div class="choice-letter">C</div>
                         <div class="choice-option" ></div>
                     </button>
 
                     <!-- Choice D -->
-                    <button id="choice-box" data-answer="4">
+                    <button class ="choice-box" data-answer="3">
                         <div class="choice-letter">D</div>
                         <div class="choice-option" ></div>
                     </button>
@@ -65,11 +65,18 @@
                 </div>
 
                 <div id="savescreen">
-                    <div></div>
+                   
+                    <form id="saveInitials" class="saveScore">
+                        <h2>Your final Score: <span id="finalScore"></span></h2>
+                        <h3> Enter your name initials to save your score</h3>
+                        <input type="text" name="name" id="initials" placeholder="Enter your Initials">
+                        <button id="saveBtn" type="submit"> Sumbit</button>
+                    </form>
+                    
                     <button id="start-again">Start Quiz Again</button>
+
                     <a href="./scoreboard.html"> Score Board</a>
                 </div>
-
             </div>
 
         </main>
