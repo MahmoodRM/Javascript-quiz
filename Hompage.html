@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
         <title> Java Script Quiz</Script></title>
         <link rel="stylesheet" href="./Assets/CSS/homepageStyle.css">
     </head>
@@ -14,16 +15,60 @@
             </a>
             
             <!-- Timer -->
-            <div id="timedisplay">
-                Timer: <span id="timer">
-                    60
-                </span>
+            <div id="timedisplay"></div>
+            
+            <!-- Score -->
+            <div id="scoredisplay">
+                Score: <span id="score"></span>
             </div>
         </header>
-        
+
+
         <!-- Quiz title/ Quiz/ Initials box -->
         <main>
             <div id="quizarea">
+
+                <div id="intro">
+                    <h1>Java Script Quiz</h1>
+                    <p> Once you have started the quiz you will have one minute to complete it. Wrong answers will result in a time penalty. The score will take into account both the number of questions right and the time taken to finish the quiz.</p>
+                    <button id="startBtn"> Start Quiz</button>
+                </div>
+
+                <div id="quizscreen"> 
+                    <!-- Question  -->
+                    <h1 id="question" class="header"></h1>
+                    
+                    <!-- Option A -->
+                    <button id="choice-box" data-answer="1">
+                        <div class="choice-letter">A</div>
+                        <div class="choice-option" ></div>
+                    </button>
+                    
+                    <!-- Choice B  -->
+                    <button id="choice-box" data-answer="2">
+                        <div class="choice-letter">B</div>
+                        <div class="choice-option" ></div>
+                    </button>
+
+                    <!-- Choice C  -->
+                    <button id="choice-box"data-answer="3">
+                        <div class="choice-letter">C</div>
+                        <div class="choice-option" ></div>
+                    </button>
+
+                    <!-- Choice D -->
+                    <button id="choice-box" data-answer="4">
+                        <div class="choice-letter">D</div>
+                        <div class="choice-option" ></div>
+                    </button>
+
+                </div>
+
+                <div id="savescreen">
+                    <div></div>
+                    <button id="start-again">Start Quiz Again</button>
+                    <a href="./scoreboard.html"> Score Board</a>
+                </div>
 
             </div>
 

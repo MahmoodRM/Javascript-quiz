@@ -18,6 +18,7 @@ body{
 }
 
 #scorelink,
+#scoredisplay,
 #timedisplay {
     color: rgb(211, 172, 221);
     text-decoration: none;
@@ -42,4 +43,25 @@ main {
     border: 3px solid #5f135b;
     width: 70vh;
     height: 50vh;
+}
+
+/* Quiz components */
+
+#choice-box {
+    display: flex;
+    width: 100%;
+    margin: 1px;
+    background-color: #83147d;
+    border-radius: 2px;
+    font-size: 150%;
+}
+
+#choice-box:hover {
+    transform: scale(110%);
+    box-shadow: #5f135b;
+    cursor: pointer;
+}
+
+.choice-letter {
+    margin-right: 10px;
 }
