@@ -47,7 +47,7 @@ These are two images of my homepage and scoreboard page, I was able to create fu
 
 ## Link to Deployed application (not functioning)
 
-
+https://mahmoodrm.github.io/Javascript-quiz/
 
 
 
